@@ -1,0 +1,19 @@
+{
+  "name": "webpack-project",
+  "version": "1.0.0",
+  "description": "Webpack project",
+  "repository": "https://github.com/dankreiger/webpack-project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server  --config=config/webpack.dev.js",
+    "webpack": "webpack --config=config/webpack.dev.js"
+  },
+  "keywords": [],
+  "author": "Dan Kreiger <dan@dankreiger.com> (http://www.dankreiger.com/)",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "3.11.0",
+    "webpack-dev-server": "2.11.1"
+  }
+}
