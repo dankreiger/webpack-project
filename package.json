@@ -12,7 +12,13 @@
   "author": "Dan Kreiger <dan@dankreiger.com> (http://www.dankreiger.com/)",
   "license": "ISC",
   "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-loader": "7.1.2",
+    "babel-plugin-transform-es2015-arrow-functions": "6.22.0",
     "css-loader": "0.28.10",
+    "extract-loader": "1.0.2",
+    "file-loader": "1.1.9",
+    "html-loader": "0.5.5",
     "style-loader": "0.20.2",
     "webpack": "3.11.0",
     "webpack-dev-server": "2.11.1"

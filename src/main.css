@@ -3,7 +3,7 @@ body {
   background-color: #444;
 }
 
-div {
+.flex-center {
   height: 100vh;
   display: flex;
   align-items: center;
@@ -11,14 +11,25 @@ div {
 }
 
 h1 {
+  position: absolute;
+  margin: 0;
   font-size: 3em;
   font-family: sans-serif;
   color: white;
   transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  filter: drop-shadow(16px 16px 10px black);
   cursor: pointer;
 }
 
-h1:hover {
-  transform: scale(2);
-  filter: drop-shadow(16px 16px 10px black);
+h1:active {
+  filter: drop-shadow(1px 1px 1px black);
+  transition: all 100ms;
+  color: aliceblue;
+}
+
+img {
+  width: 150px;
+  border-radius: 10px;
+  filter: grayscale(100%);
+  box-shadow: 0 0 20px black;
 }
