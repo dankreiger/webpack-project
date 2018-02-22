@@ -19,6 +19,7 @@ h1 {
   transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
   filter: drop-shadow(16px 16px 10px black);
   cursor: pointer;
+  user-select: none;
 }
 
 h1:active {
