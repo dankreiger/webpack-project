@@ -5,9 +5,8 @@
   "repository": "https://github.com/dankreiger/webpack-project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server  --config=config/webpack.dev.js",
-    "webpack": "webpack --config=config/webpack.dev.js"
+    "build": "webpack --config=config/webpack.dev.js",
+    "start": "webpack-dev-server  --config=config/webpack.dev.js"
   },
   "keywords": [],
   "author": "Dan Kreiger <dan@dankreiger.com> (http://www.dankreiger.com/)",
